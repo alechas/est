@@ -4,7 +4,7 @@ include_once("PHP/estacionamiento.php");
 $variableTexto = $_POST['texto'];
 
 //echo "$_POST[ingreso]";
-//var_dump($_POST);
+var_dump($_POST);
 
 if ($_POST["ingresar"] == "Ingresar") 
 {
